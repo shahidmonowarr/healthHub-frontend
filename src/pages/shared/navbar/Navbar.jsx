@@ -48,9 +48,9 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <Link className=" normal-case">
+        <Link to="/" className=" normal-case">
           <img
-            className=" w-52 overflow-hidden m-0"
+            className=" w-5/6 overflow-hidden m-0"
             src="https://i.ibb.co/w4XnbD3/cover.png"
             alt=""
           />
@@ -60,7 +60,12 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{menuItems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">LogIn</a>
+        <Link to="/login" className="relative cursor-pointer normal-case ">
+          <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-black rounded"></span>
+          <span className="relative inline-block w-full h-fit px-6 py-2 text-base font-bold bg-white border-2 border-black rounded hover:bg-yellow-400 xl:text-xl fold-bold">
+            Login
+          </span>
+        </Link>
       </div>
     </div>
   );
