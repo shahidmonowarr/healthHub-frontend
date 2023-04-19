@@ -5,7 +5,7 @@ import phone from "../../../assets/phone.svg";
 
 const InfoCards = () => {
   return (
-    <div className="relative w-full overflow-hidden bg-white md:pt-20 md:pb-64">
+    <div className="relative w-full overflow-hidden bg-white md:pt-20 md:pb-2">
       <div className="container relative flex flex-col justify-between h-full max-w-6xl px-8 mx-auto xl:px-0">
         <div className="flex w-full h-full">
           <div className="w-full lg:w-3/3">
