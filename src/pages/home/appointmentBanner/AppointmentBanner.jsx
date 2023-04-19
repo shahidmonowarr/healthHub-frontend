@@ -8,7 +8,7 @@ const AppointmentBanner = () => {
     <section
       className="relative w-full my-20 px-8 min-w-min:my-10 md:my-20"
       style={{
-        backgroundImage: `url(${appointment}), background-position: center, background-repeat: no-repeat, background-attachment: fixed, background-size: cover`,
+        backgroundImage: `url(${appointment})`,
       }}
     >
       <div className="flex flex-col items-center justify-center h-full max-w-6xl mx-auto sm:flex-row sm:justify-between">
