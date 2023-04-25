@@ -2,7 +2,6 @@ import React from "react";
 import cavity from "../../../assets/cavity.svg";
 import fluoride from "../../../assets/fluoride.svg";
 import whitening from "../../../assets/whitening.svg";
-import Service from "./Service";
 
 const Services = () => {
   const servicesData = [
@@ -34,18 +33,16 @@ const Services = () => {
       id="features"
       class="relative w-full px-8 md:py-5 lg:py-10 xl:py-20 xl:px-0"
     >
-      <div class="container flex flex-col items-center justify-between h-full max-w-6xl mx-auto">
-        <h2 class="my-5 text-base font-medium tracking-tight text-indigo-500 uppercase">
-          Our Features
+      <div class="flex flex-col items-center justify-center w-full h-full max-w-2xl pr-8 mx-auto text-center">
+        <p class="my-3 text-base font-medium tracking-tight text-indigo-500 uppercase">
+          Best Medical Services
+        </p>
+        <h2 class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
+          Our Services
         </h2>
-        <h3 class="max-w-xl px-5 mt-2 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-2xl">
-          We provide the best services
-        </h3>
-        <div class="flex flex-col w-full mt-0 lg:flex-row sm:mt-5 lg:mt-10">
-          {servicesData.map((service) => (
-            <Service key={service.id} service={service}></Service>
-          ))}
-        </div>
+        <p class="my-4 text-xl font-medium text-gray-500">
+          We provide the best dental care services in the world.
+        </p>
       </div>
     </div>
   );

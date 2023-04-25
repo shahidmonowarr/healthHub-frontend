@@ -49,13 +49,13 @@ const Testimonials = () => {
   return (
     <div className="container">
       <div class="flex flex-col items-center justify-center w-full h-full max-w-2xl pr-8 mx-auto text-center">
-        <p class="my-5 text-base font-medium tracking-tight text-indigo-500 uppercase">
+        <p class="my-3 text-base font-medium tracking-tight text-indigo-500 uppercase">
           Our customers loves our Services
         </p>
         <h2 class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
           Testimonials
         </h2>
-        <p class="my-6 text-xl font-medium text-gray-500">
+        <p class="my-4 text-xl font-medium text-gray-500">
           Don't just take our word for it, read from our extensive list of case
           studies and customer testimonials.
         </p>
